@@ -7,7 +7,7 @@ This repository contains some useful scripts (mostly LUA) for [LiveConfig](http:
 ## Installation
 
 1. Clone this repository:  
-  `git clone https://github.com/frdmn/LiveConfig-scripts`  
+  `git clone https://github.com/frdmn/LiveConfig-scripts /usr/local/src/liveconfig-scripts`  
   `cd /usr/local/src/liveconfig-scripts`
 2. Open the desired script sub-folder and read the regarding `README.md` for further installation instructions:  
   `open apache_post_vhost_hook/README.md` 
