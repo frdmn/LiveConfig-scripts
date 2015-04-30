@@ -15,6 +15,8 @@ This repository contains some useful scripts (mostly LUA) for [LiveConfig](http:
 ## Script documentation
 
 * [apache\_post\_vhost\_hook](apache_post_vhost_hook): Script, originally made by @megabert (fx998), to support per domain/virtual host customizations in Apache.
+ 
+* [nginx\_post\_vhost\_hook](nginx_post_vhost_hook): Analogous to [apache\_post\_vhost\_hook](apache_post_vhost_hook), to support per domain/virtual host customizations in Nginx server blocks.
 
 ## Contributing
 
