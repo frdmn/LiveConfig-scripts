@@ -10,11 +10,11 @@ This repository contains some useful scripts (mostly LUA) for [LiveConfig](http:
   `git clone https://github.com/frdmn/LiveConfig-scripts`  
   `cd /usr/local/src/liveconfig-scripts`
 2. Open the desired script sub-folder and read the regarding `README.md` for further installation instructions:  
-  `open lc_apache_post_vhost_hook/README.md` 
+  `open apache_post_vhost_hook/README.md` 
 
 ## Script documentation
 
-* [lc\_apache\_post\_vhost\_hook](lc_apache_post_vhost_hook): Script, originally made by @megabert (fx998), to support per domain/virtual host customizations in Apache.
+* [apache\_post\_vhost\_hook](apache_post_vhost_hook): Script, originally made by @megabert (fx998), to support per domain/virtual host customizations in Apache.
 
 ## Contributing
 
