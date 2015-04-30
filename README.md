@@ -14,9 +14,11 @@ This repository contains some useful scripts (mostly LUA) for [LiveConfig](http:
 
 ## Script documentation
 
-* [apache\_post\_vhost\_hook](apache_post_vhost_hook): Script, originally made by @megabert (fx998), to support per domain/virtual host customizations in Apache.
+* [apache\_post\_vhost\_hook](apache_post_vhost_hook): Lua hook, originally made by @megabert (fx998), to support per domain/virtual host customizations in Apache.
  
 * [nginx\_post\_vhost\_hook](nginx_post_vhost_hook): Analogous to [apache\_post\_vhost\_hook](apache_post_vhost_hook), to support per domain/virtual host customizations in Nginx server blocks.
+
+* [confixx\_web\_and\_mail\_data\_migrate](confixx_web_and_mail_data_migrate): Bash script to to facilitate the data migration (web and mail) from Confixx to LiveConfig. Presuming you are using LiveConfig's official [cfximport.php](https://github.com/LiveConfig/cfximport/blob/master/cfximport.php).
 
 ## Contributing
 

@@ -1,0 +1,5 @@
+settings.conf
+mail.log
+logs/**/*
+!logs/web/.gitkeep
+!logs/mail/.gitkeep
