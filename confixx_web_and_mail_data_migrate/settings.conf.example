@@ -1,0 +1,10 @@
+LIVECONFIGHOST="123.123.123.123"
+ERRORPREFIX="[Fehler]"
+SPACER="------------------------------"
+
+MAIL_LOGFOLDER="logs/mail"
+MAIL_PARSE_LOG="mail.log"
+
+WEB_LOGFOLDER="logs/web"
+WEB_SQL_DUMPFOLDER="dumps"
+WEB_MYSQLPW="123456"
