@@ -3,9 +3,9 @@ apache_orig_configureVHost = require("apache").configureVHost
 
 LC.apache = require("apache")
 
-function LC.apache.configureVHost(cfg, opts)
+function LC.apache.configureVHost(cfg, opts, cnames)
   -- Erst Konfiguration erzeugen lassen und danach anpassen
-  res = apache_orig_configureVHost(cfg,opts)
+  res = apache_orig_configureVHost(cfg,opts,cnames)
 
   -- VHost-Config-File ermitteln
   local vhostpath  = cfg["available_dir"] or cfg["enabled_dir"]

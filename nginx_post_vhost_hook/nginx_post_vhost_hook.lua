@@ -3,9 +3,9 @@ nginx_orig_configureVHost = require("nginx").configureVHost
 
 LC.nginx = require("nginx")
 
-function LC.nginx.configureVHost(cfg, opts)
+function LC.nginx.configureVHost(cfg, opts, cnames)
   -- Erst Konfiguration erzeugen lassen und danach anpassen
-  res = nginx_orig_configureVHost(cfg,opts)
+  res = nginx_orig_configureVHost(cfg,opts,cnames)
 
   -- VHost-Config-File ermitteln
   local vhostpath  = cfg["available_dir"] or cfg["enabled_dir"]
